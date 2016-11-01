@@ -20,68 +20,7 @@
 </head>
 
 <body>
-    <!-- Navigation Bar -->  
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar_format">    
-          <div class="container">
-
-              	<div class="navbar-header">
- 	<button type="button" class="navbar-toggle collapsed" 	data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                      	<span class="sr-only">Toggle navigation</span>
-
-                      	<!-- Three line "hamburger" icon for the collapsed 					navigation -->
-                      	<span class="icon-bar"></span>
-                      	<span class="icon-bar"></span>
-                      	<span class="icon-bar"></span>
-                  	</button>
-              			<!-- Title on nav bar, hopefully where I can put 				an image 			-->
-              		<a class="navbar-brand" href="home.html">DIY Forum</a>
-            	</div>
-
-           <div id="navbar" class="collapse navbar-collapse">  
-                    <ul class ="nav navbar-nav">
-    <li><a href="index.html">Index</a></li>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="aboutDIYForum.html">About</a></li>
-    <li><a href="DIY_News.html">DIY News</a></li>
-	<li class="dropdown">
-    
-  <a  href="DIY_Videos.html" class="dropdown-toggle" data-toggle="dropdown"> 
-  <div class="  glyphicon glyphicon-triangle-bottom"></div> DIY Videos</a>
-  <ul  class="dropdown-menu">
-    <li><a href="DIY_Videos.html">DIY Videos</a></li>
-    <li><a href="fishing_videos.html">Fishing Videos </a></li>
-    <li><a href="cooking_videos.html">Cooking Videos </a></li>
-    <li><a href="woodworking_videos.html">Wood Working Videos </a></li>
-    <li><a href="arts_crafts_videos.html">Arts &amp; Crafts Videos </a></li>
-    <li><a href="elementary_science_videos.html"> Elementary Science Videos </a></li>
-    <li><a href="not_listed_here_videos.html">Random Videos </a></li>
-</ul>
-</li> 
-
-<li class="dropdown">
-    
-  <a  href="DIY_interests.html" class="dropdown-toggle" data-toggle="dropdown"> 
-  <div class="  glyphicon glyphicon-triangle-bottom"></div> DIY Interest</a>
-  <ul  class="dropdown-menu">
-    <li><a href="DIY_interests.html">DIY Interest</a></li>
-    <li><a href="fishing.html"> Fishing Community </a></li>
-    <li><a href="cooking.html"> Cooking Community</a></li>
-    <li><a href="woodworking.html">Wood Working Community </a></li>
-    <li><a href="arts_crafts.html">Arts &amp; Crafts Community </a></li>
-    <li><a href="elementary_science.html"> Elementary Science</a></li>
-    <li><a href="not_listed_here.html"> General Discussion Comunnity </a></li>
-</ul>
-</li> 
-
-    <li class="active"><a href="siteRegistrationForm.html">Register</a></li>
-    <li><a href="sign_in_Form.html">Sign In</a></li>
-    <li><a href="DIY_Forum_Support.html">Support</a></li>
-  </ul>
-              	</div>
-          </div>
-    </div>
-    </nav>
+<?php include "../resources/navigation.php"; ?>
   <!-- Main Content -->
     <div class="container">
     
@@ -254,7 +193,7 @@
 	
 		<fieldset style="width:275px">
 
-		<p>Do you agree with Terms and Conditions&quest;<a href="terms_And_Conditions.html">Terms and Conditions</a></p>
+		<p>Do you agree with Terms and Conditions&quest;<a href="terms_And_Conditions.php">Terms and Conditions</a></p>
 		<label for="i_Agree">Terms And Conditions</label><br />
 		<input type="radio" id="i_Agree" name="i_Agree" value="I Agree" />&nbsp;I Agree<br />
 		<input type="radio" id="i_Disagree" name="i_Disagree" value="I Disagree" /> &nbsp;I Disagree<br />
@@ -273,10 +212,7 @@
 
 <hr>
 	<div  class="DIY_footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<footer  id="foot" class="style_foot" >       
-<p class="style_foot"><em>Contact Information</em> &#58;  Developer Phone:777-555-9999 &#124; <br />Business Email:DIY_Forum_Dev@gmail.com &#124;
-<em>Disclaimer: All contact info is false and for assignment purposes.</em></p>     
-</footer>
+<?php include "../resources/footer.php"; ?>
 </div>
 
 </div>

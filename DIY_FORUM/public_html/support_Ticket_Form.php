@@ -19,32 +19,7 @@
 </head>
 
 <body>
-    <!-- Navigation Bar -->  
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar_format">    
-          <div class="container">
-
-              	<div class="navbar-header">
-                  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                      	<span class="sr-only">Toggle navigation</span>
-
-                      	<!-- Three line "hamburger" icon for the collapsed 					navigation -->
-                      	<span class="icon-bar"></span>
-                      	<span class="icon-bar"></span>
-                      	<span class="icon-bar"></span>
-                  	</button>
-
-              	<a class="navbar-brand" href="home.html">DIY Forum</a>
-            	</div>
-
-           	<div id="navbar" class="collapse navbar-collapse">	
-                  	<ul class ="nav navbar-nav">
-	<li><a href="DIY_Forum_Support.html">Back To Support</a></li>
-</ul>
-</div>
-          </div>
-    </div>
-    </nav>
+   <?php include "../resources/navigation.php"; ?>
 
 
     <!-- Main Content -->
@@ -110,10 +85,7 @@
 </div>
 <hr>
 <div  class="DIY_footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<footer  id="foot" class="style_foot" >       
-<p class="style_foot"><em>Contact Information</em> &#58;  Developer Phone:777-555-9999 &#124; <br />Business Email:DIY_Forum_Dev@gmail.com &#124;
-<em>Disclaimer: All contact info is false and for assignment purposes.</em></p>     
-</footer>
+<?php include "../resources/footer.php"; ?>
 </div>
 
 </div>
