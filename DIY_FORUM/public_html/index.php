@@ -30,45 +30,45 @@
 	<table class="table table-hover">
 	    <tbody>
 	        <tr>
-	            <td><a href="home.html">Home</a></td>
+	            <td><a href="home.php">Home</a></td>
 	            <td>Home page of DIY Forum</td>
 	        </tr>
 	        <tr>
-	            <td><a href="aboutDIYForum.html">About</a></td>
+	            <td><a href="aboutDIYForum.php">About</a></td>
 	            <td>All About DIY Forum</td>
 	        </tr>
 	        <tr>
-	            <td><a href="DIY_News.html">News</a></td>
+	            <td><a href="DIY_News.php">News</a></td>
 	            <td>Latest news from DIY Forum</td>
 	        </tr>
 	        <tr>
-	            <td><a href="DIY_Videos.html">Videos</a></td>
+	            <td><a href="DIY_Videos.php">Videos</a></td>
 	            <td>DIY videos from around the web</td>
 	        </tr>
 	        <tr>
-	            <td><a href="DIY_interests.html">Interests</a></td>
+	            <td><a href="DIY_interests.php">Interests</a></td>
 	            <td>Discussion page for DIY Forum</td>
 	        </tr>
 	        <tr>
-	            <td><a href="terms_And_Conditions.html">Terms and Conditions</a></td>
+	            <td><a href="terms_And_Conditions.php">Terms and Conditions</a></td>
 	            <td>Terms and conditions</td>
 	        </tr>
 	      
 	         <tr>
-	            <td><a href="FAQ.html">FAQ</a></td>
+	            <td><a href="FAQ.php">FAQ</a></td>
 	            <td>FAQ</td>
 	        </tr>
 	        <tr>
-	        	<td><a href="siteRegistrationForm.html">Register</a></td>
+	        	<td><a href="siteRegistrationForm.php">Register</a></td>
 	        	<td>Register</td>
 	        </tr>
 	        <tr>
-	        	<td><a href="sign_in_Form.html"> Sign In</a></td>
+	        	<td><a href="sign_in_Form.php"> Sign In</a></td>
 	        	<td> Sign In</td>
 	        	
 	        </tr>  
 	        <tr>
-	            <td><a href="DIY_Forum_Support.html">Support</a></td>
+	            <td><a href="DIY_Forum_Support.php">Support</a></td>
 	            <td>Support</td>
 	        </tr>
 	    </tbody>
